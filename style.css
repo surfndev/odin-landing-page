@@ -1,0 +1,191 @@
+/* || General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+}
+
+
+/* || Hero Section */
+.hero-section{  
+    background-color: #1F2937;
+    color: white;
+    height: 70vh;
+}
+
+/* nav bar */
+nav{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+/* unorder list */
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+/* links */
+.hero-section a{ 
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Hero Middle */
+
+.hero-middle{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+/* Hero Left */
+
+.hero-left{
+    width:400px;
+    text-align: left;
+}
+
+.hero-left span{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-left .colored{
+    font-family:Georgia, serif;
+    font-style: italic;
+    color: chocolate;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.hero-left button{
+    background-color: #3882F6;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+}   
+/* Hero Right */
+
+.hero-right img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* || Information Section */
+
+.information-section{
+    height: 400px;
+}
+
+.information-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-decoration: wavy underline orange;
+    text-underline-offset: 3px;
+}
+
+.information-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+.card{
+    height: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 10px;
+}
+.card p{
+    margin-top: 8px;
+    color: rgb(77, 76, 76);
+}
+
+/* || Quote Section */
+
+.quote-section{
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-card p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    text-align: right;
+}
+
+.quote-card .author{
+    font-weight: normal;
+}
+
+/* || Call to action section */
+
+.call-to-action{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-card{
+    background-color:#3882F6;
+    width: 80%;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.action-card button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    width: 100px;
+}
+
+/* || Footer section */
+
+.footer{
+    background-color: #1F2937;
+    height: 70px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
